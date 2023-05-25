@@ -1,0 +1,82 @@
+.up-button {
+    position: fixed;
+    z-index: 1;
+    padding: 0;
+    bottom: 60px;
+    right: -100px;
+    width: 55px;
+    height: 55px;
+    font-size: 40px;
+    text-align: center;
+    vertical-align: middle;
+    border: 3px solid;
+    border-radius: 5%;
+    cursor: pointer;
+    color: white;
+    display: inline-block;
+    transition:.5s;
+    opacity: 1;
+    background-color: white;
+}
+.arrow_icon{
+    fill: black;
+    opacity: 0.9;
+    width: 35px;
+    height: 35px;
+    margin-right: 1px;
+    margin-top: 2px;
+}
+.shown{
+    transition:.5s;
+    right: 40px;
+}
+.orange{
+    color: #fe6000;
+}
+
+.main-content_img_first-position_hover{
+    opacity: 70%;
+    transform: scale(1.1);
+    transition: all 0.2s;
+}
+.scale{
+    transform: scale(1.1);
+}
+.hide{
+    top: -150px;
+}
+.hide_text{
+    display: none;
+}
+.show{
+    display: block;
+}
+.description_text-sale{
+    display: none;
+}
+.description_text-news{
+    display: none;
+}
+.show_text{
+    transition: all 2s;
+    opacity: 1;
+    padding-bottom: 15px;
+    display: block;
+}
+.round{
+    transform: rotate(1deg);
+}
+.show_block{
+    opacity: 1;
+    display: flex;
+}
+.opacity{
+    opacity: 0.1;
+}
+
+.opacity_none{
+    opacity: 1;
+}
+.opacity_active{
+    opacity: 0;
+}

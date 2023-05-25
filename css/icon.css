@@ -1,0 +1,26 @@
+.computer-icon{
+    margin-left: 30px;
+    height: 35px;
+    width: 35px;
+}
+.up-icon{
+    width: 30px;
+    height: 30px;
+}
+.exit_icon_training,
+.exit_icon,
+.exit_icon_trainer{
+    cursor: pointer;
+    transition: all .2s;
+}
+.insta,
+.telegram,
+.mail{
+    width: 30px;
+}
+.add_icons{
+    width: 110px;
+    position: absolute;
+    opacity: 0.5;
+    cursor: pointer;
+}
